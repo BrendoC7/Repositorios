@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abhaya+Libre:wght@400;500;600;700;800&family=Bakbak+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #171515;
+    min-height: 100vh;
+    font-family: "Bakbak One", sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #9f9071;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #9f9071;
+    text-decoration: none;
+}
+
+.footer-social p {
+    margin-right: 5px;
+}
+
+.color-font {
+    color: #9f9071;
+}
+
+
+.hero {
+    font-family: "Bakbak One", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 50px 100px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px; 
+    padding: 50px 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+/* Título */
+.Introducao3 {
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.title3 {
+    font-family: "Bakbak One", serif;
+    font-size: 40px; 
+    line-height: 1.4; 
+    color: #fff;
+}
+
+
+.image-curso {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 100%; 
+}
+
+.image-curso img {
+    max-width: 25%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.image-curso .img-tabela {
+    max-width: 45%; 
+}
+
+.IMG-JU img {
+    max-width: 100%;
+    width: 555px;
+    height: auto;
+    object-fit: cover; 
+    display: block;
+}
+
+
+.Introducao {
+    max-width: 500px
+    
+}
+
+.introducao1,
+p {
+    color: #fff;
+}
+
+.introducao2,
+p {
+    font-family: "Abel", sans-serif;
+}
+
+.Social-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section1 {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 100px;
+  
+    width: 100%;
+    max-width: 1300px;
+  
+    margin: 0 auto;
+   
+    display: flex;
+   
+    justify-content: space-between;
+ 
+    align-items: center;
+    
+    text-align: left;
+    gap: 20px;
+   
+    margin-top: -55px;
+}
+
+.section2 {
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 100px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    text-align: start;
+    margin-top: 3%;
+}
+
+.section3 {
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 100px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    text-align: start;
+    margin-top: 3%;
+}
+
+.color-font1 {
+    color: #9f9071;
+}
+
+.color-font2 {
+    color: #9f9071;
+}
+
+.color-font1 {
+    color: #9f9071; 
+}
+
+.color-font4 {
+    color: #9f9071;
+}
+
+.section1 img {
+    max-width: 360px;
+    height: auto;
+    border-radius: 10px;
+  
+}
+
+.escrita1 {
+    margin-top: 3%;
+}
+
+.escrita2 {
+    margin-top: 3%;
+}
+
+.escrita3 {
+    margin-top: 3%;
+}
+
+.escrita4 {
+    margin-top: 3%;
+}
+
+.escrita5 {
+    margin-top: 3%;
+}
+
+.title1 {
+    font-family: "Bakbak One", serif;
+    font-size: 45px;
+    gap: 10px;
+}
+
+.title2 {
+    font-family: "Bakbak One", serif;
+    font-size: 45px;
+    gap: 10px;
+    text-align: start;
+}
+
+.title4{
+    margin-top: 1%;
+    text-align: start;
+}
+
+
+.introducao1 {
+    font-size: 45px;
+}
+
+.introducao2 {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.img-curso {
+    width: 555px;
+    height: 555px;
+}
+
+.centered-button {
+    background-color: #323232; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    top: 60%; 
+    transform: translateY(-50%); 
+    margin-top: 50px; 
+}
+
+.centered-button:hover {
+    background-color: #9f9071; 
+}
+
+.contatos {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 50px 100px;
+    gap: 30px; 
+    max-width: 1300px;
+    margin: 0 auto; 
+}
+
+.mapa {
+    flex: 1;
+    max-width: 50%; 
+
+.mapa iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.informacoes {
+    flex: 1;
+    max-width: 50%; 
+    padding-left: 20px; 
+    font-family: "Abel", sans-serif; 
+}
+
+.informacoes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.informacoes p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.informacoes img {
+    width: 24px;
+    height: 24px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bakbak One', sans-serif;
+    background-color: #1a1a1a;
+    color: #9f9071;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+
+.servicos {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.titulo {
+    font-family: "Bakbak One", serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #9f9071;
+    position: relative;
+    top: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    margin-top: 100px;
+    margin-left: 4%;
+}
+
+
+.item {
+    background-color: #000;
+    border-radius: 0 0 50px 0;
+    padding: 40px; 
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, background-color 0.3s;
+    font-size: 20px; 
+}
+
+.item:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+
+.icone {
+    width: 80px; 
+    margin-bottom: 15px;
+}
+
+
+.texto {
+    font-size: 20px; 
+    font-weight: 150;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.linkc {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.linkc:hover {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.colunm1{
+    color: #fff;
+}
+
+    
+.tabela-precos {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 50px;
+}
+
+.tabela-precos table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: left;
+    font-family: 'Bakbak One', sans-serif;
+}
+
+.tabela-precos th, .tabela-precos td {
+    border: 1px solid #9f9071;
+    padding: 15px;
+}
+
+.tabela-precos th {
+    background-color: #000;
+    font-size: 18px;
+}
+
+.tabela-precos td {
+    font-size: 26px;
+}
+
+.tabela-precos caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #9f9071;
+}
+
+.image-curso {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.img-tabela {
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+.img-mulher{
+    width: 2000px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+  }
+  
+  .parallax {
+    background-image: url('/img/fiundo.png');
+    height: 40vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.parallax h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem 2rem;
+    font-family: 'Arial', sans-serif; 
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+
+main, footer {
+    font-family: 'Bakbak One', serif;
+}
+
+h2, h3, p {
+    font-family: inherit;
+}
+
+
+header .logo h1 {
+    font-size: 2rem;
+    color: #9f9071;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2 {
+    color: #9f9071;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.5rem; 
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+}
+
+.service-container div {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.service-container img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: 'Bakbak One', serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  .footer-content div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #9f9071;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 3rem; /* Aumentando o tamanho do título h1 no header */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #9f9071;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.Social-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero {
+    font-family: "Bakbak One", serif;
+    display: flex;
+    justify-content: space-between; /* Garante espaçamento entre texto e imagem */
+    align-items: center; /* Alinha verticalmente os elementos */
+    padding: 50px 100px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.introducao3 {
+    margin-bottom: 20px;
+}
+
+.title4 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.img-galeria {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.img-galeria img {
+    width: calc(25% - 10px); 
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
